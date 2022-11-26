@@ -12,13 +12,13 @@ body
 
 .container-fluid 
 {
-    padding: 3% 15%;
-    padding-bottom: 7%;
+    padding: 3% 15% 7%;
 }
 
 h1
 {
     font-family: 'Montserrat-Black', sans-serif;
+    color: #fff     ;
     font-weight:1000;
     font-size:3.5rem;
     line-height:1.5;
@@ -48,6 +48,7 @@ p
 
 .navbar
 {
+    
     padding:0 0 4.5rem;
 }
 
@@ -81,9 +82,9 @@ p
 .title-image
 {
     transform: rotate(25deg);
-    width: 20%;
+    width: 21%;
     position:absolute;
-    margin-left: 5%;
+    right: 22%;
   
 }
 
@@ -94,6 +95,7 @@ p
     padding: 7% 15%;
     background-color:#fff;
     position: relative;
+    
 
 }
 
@@ -160,4 +162,31 @@ p
 .pc-col
 {
     padding: 3% 2%;
+}
+
+#Download{
+    
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    text-align:center;
+}
+
+#Contact{
+    padding: 4% 0 4% 0;
+    text-align: center;
+}
+.footer-icon {
+    padding: 0.5%;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        text-align: center;
+        width: 80%;
+        position: static;
+        transform: rotate(0);
+    }
 }
